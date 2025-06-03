@@ -58,6 +58,7 @@ h2 {
 main {
   width: 100%;
   max-width: 1920px !important;
+  top:100px;
 }
 
 .max-w-screen-xl {
