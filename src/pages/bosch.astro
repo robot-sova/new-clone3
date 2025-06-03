@@ -1,0 +1,19 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Header from '../components/header/Oven.jsx'
+import Offers from '../components/Offers.jsx'
+import { Tabs } from '../components/tabs/Tabs.jsx'
+import { Brands } from '../components/brands/Brands.jsx'
+import '../styles/global.css';
+
+const structuredData = {}
+---
+ <Layout title="SAME DAY Bosch Repair - Expert Service! (323) 870-4790" description="Expert licensed Bosch repair. We repair all Bosch appliances such as dryers, ovens, refrigerators, and more. Same day service! (323) 870-4790">
+ <Header client:load/>
+ <Tabs client:load/>
+ <Brands client:load/>
+</Layout>
+
+
+
+ 

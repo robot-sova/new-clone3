@@ -1,0 +1,163 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Header from '../components/header/Oven.jsx'
+import Offers from '../components/Offers.jsx'
+import { Tabs } from '../components/tabs/Tabs.jsx'
+import { Brands } from '../components/brands/Brands.jsx'
+import '../styles/global.css';
+
+const structuredData = {
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "@id": "https://samedayappliance.repair/alhambra/",
+  "name": "Same Day Appliance Repair",
+  "image": "https://samedayappliance.repair/images/same-day-appliance-repair-logo-2.webp",
+  "url": "https://samedayappliance.repair/alhambra/",
+  "telephone": "+1-424-325-0520",
+  "priceRange": "$$$",
+  "description": "Same Day Appliance Repair offers fast, professional appliance repair in Alhambra. Our trained technicians are available for same-day service and specialize in repairing a wide range of brands, from Sub-Zero and Wolf to Samsung and Whirlpool. All work backed by a 3-month warranty.",
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Alhambra",
+    "addressRegion": "CA",
+    "postalCode": "91801",
+    "addressCountry": "US"
+  },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": 34.082460,
+    "longitude": -118.134850
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday"
+      ],
+      "opens": "08:00",
+      "closes": "20:00"
+    }
+  ],
+  "areaServed": {
+    "@type": "City",
+    "name": "Alhambra",
+    "sameAs": "https://en.wikipedia.org/wiki/Alhambra,_California"
+  },
+  "makesOffer": {
+    "@type": "Offer",
+    "itemOffered": {
+      "@type": "Service",
+      "name": "Same Day Appliance Repair Services",
+      "description": "Certified same-day repair for major appliances including refrigerators, dishwashers, ovens, ranges, washers, dryers, microwaves, and wine coolers. Technicians serve Alhambra with expert care and quick turnaround times.",
+      "areaServed": {
+        "@type": "Place",
+        "name": "Alhambra Metropolitan Area"
+      },
+      "provider": {
+        "@type": "Organization",
+        "name": "Same Day Appliance Repair"
+      }
+    }
+  },
+  "hasOfferCatalog": {
+    "@type": "OfferCatalog",
+    "name": "Appliance Repair Services",
+    "itemListElement": [
+      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Refrigerator Repair" }},
+      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Freezer Repair" }},
+      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Oven Repair" }},
+      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Stove Repair" }},
+      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Cooktop Repair" }},
+      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Range Repair" }},
+      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Range Hood Repair" }},
+      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Washing Machine Repair" }},
+      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Dryer Repair" }},
+      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Dishwasher Repair" }},
+      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Microwave Repair" }},
+      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Wine Cooler Repair" }},
+      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Wine Cellar Repair" }},
+      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "BBQ Grill Repair" }},
+      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Built-In Coffee Machine Repair" }},
+      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Steam Oven Repair" }},
+      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Warming Drawer Repair" }},
+      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Speed Oven / Combi-Oven Repair" }},
+      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Ice Maker Repair" }},
+      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Trash Compactor Repair" }},
+      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Fireplace Repair" }},
+      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Beverage Center Repair" }},
+      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Kegerator Repair" }}
+    ]
+  },
+  "brand": [
+    { "@type": "Brand", "name": "Sub-Zero" },
+    { "@type": "Brand", "name": "Wolf" },
+    { "@type": "Brand", "name": "Thermador" },
+    { "@type": "Brand", "name": "Miele" },
+    { "@type": "Brand", "name": "La Cornue" },
+    { "@type": "Brand", "name": "Viking" },
+    { "@type": "Brand", "name": "Bosch" },
+    { "@type": "Brand", "name": "LG" },
+    { "@type": "Brand", "name": "Samsung" },
+    { "@type": "Brand", "name": "Whirlpool" },
+    { "@type": "Brand", "name": "KitchenAid" },
+    { "@type": "Brand", "name": "GE" },
+    { "@type": "Brand", "name": "Frigidaire" },
+    { "@type": "Brand", "name": "Maytag" },
+    { "@type": "Brand", "name": "Electrolux" },
+    { "@type": "Brand", "name": "Fisher & Paykel" },
+    { "@type": "Brand", "name": "Cove" },
+    { "@type": "Brand", "name": "Jenn-Air" },
+    { "@type": "Brand", "name": "Gaggenau" },
+    { "@type": "Brand", "name": "Smeg" },
+    { "@type": "Brand", "name": "BlueStar" },
+    { "@type": "Brand", "name": "True Residential" },
+    { "@type": "Brand", "name": "Haier" },
+    { "@type": "Brand", "name": "Monogram" },
+    { "@type": "Brand", "name": "Dacor" },
+    { "@type": "Brand", "name": "ZLINE" },
+    { "@type": "Brand", "name": "Amana" },
+    { "@type": "Brand", "name": "Asko" },
+    { "@type": "Brand", "name": "Magic Chef" },
+    { "@type": "Brand", "name": "Speed-Queen" },
+    { "@type": "Brand", "name": "ILVE" },
+    { "@type": "Brand", "name": "Lacanche" },
+    { "@type": "Brand", "name": "Bertazzoni" }
+  ],
+  "potentialAction": [
+    {
+      "@type": "ReserveAction",
+      "target": {
+        "@type": "EntryPoint",
+        "urlTemplate": "https://same-day-appliance.repair/book/",
+        "inLanguage": "en",
+        "actionPlatform": [
+          "http://schema.org/DesktopWebPlatform",
+          "http://schema.org/MobileWebPlatform"
+        ]
+      },
+      "result": {
+        "@type": "Reservation",
+        "name": "Service Appointment"
+      }
+    },
+    {
+      "@type": "CommunicateAction",
+      "target": {
+        "@type": "EntryPoint",
+        "urlTemplate": "tel:+14243250520",
+        "actionPlatform": [ "http://schema.org/MobileWebPlatform" ]
+      }
+    }
+  ]
+}
+---
+    <Layout title="Local Appliance Repair Alhambra CA - Best Service" description="Urgent Same Day Appliance Repair in Alhambra CA is your lifesaver! We offer quick, reliable repairs for all major appliances. Call: (323) 870-4790">
+  <Header client:load/>
+ <Tabs client:load/>
+ <Brands client:load/>
+</Layout>

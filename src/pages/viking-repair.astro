@@ -1,0 +1,19 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Header from '../components/header/Oven.jsx'
+import Offers from '../components/Offers.jsx'
+import { Tabs } from '../components/tabs/Tabs.jsx'
+import { Brands } from '../components/brands/Brands.jsx'
+import '../styles/global.css';
+
+const structuredData = {}
+---
+ <Layout title="Viking Repair Los Angeles: Expert Service! (323) 870-4790" description="Expert licensed viking repair Los Angeles & nearby areas. We repair all Bosch appliances such as dryers, ovens, refrigerators, and more. Call: (323) 870-4790">
+ <Header client:load/>
+ <Tabs client:load/>
+ <Brands client:load/>
+</Layout>
+
+
+
+ 

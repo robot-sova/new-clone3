@@ -1,0 +1,19 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Header from '../components/header/Oven.jsx'
+import Offers from '../components/Offers.jsx'
+import { Tabs } from '../components/tabs/Tabs.jsx'
+import { Brands } from '../components/brands/Brands.jsx'
+import '../styles/global.css';
+
+const structuredData = {}
+---
+ <Layout title="Same Day Appliance Repair - All The Brands We Fix" description="Our trained and licensed expert technicians provide same day service for all major brands. Up to 3 month of warratnty. Fast & reliable repairs. (323) 870-4790">
+ <Header client:load/>
+ <Tabs client:load/>
+ <Brands client:load/>
+</Layout>
+
+
+ 
+ 
