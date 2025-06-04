@@ -26,7 +26,7 @@ export const Tabs = () => {
     },
     {
       id: "content2",
-      title: "Types of Ranges We Repair",
+      title: "Types of Ranges We Repair 1",
       heading: "Types of Ranges We Repair and Our Specialized Approach",
       img: "/range-repair/best-range-repair-service.webp",
       description: (
