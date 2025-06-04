@@ -19,7 +19,7 @@ export const Tabs = () => {
     },
     {
       id: "content2",
-      title: "Why Choose Us",
+      title: "Types of Range Hoods We Fix",
   heading: "Range Hood Types We Fix - How We Repair Them",
       img: "/range-hood-repair/licensed-hood-repair-technician.webp",
       description: (
@@ -28,7 +28,7 @@ export const Tabs = () => {
     },
     {
       id: "content3",
-      title: "Why Choose Us",
+      title: "Common Range Hood Problems",
   heading: "Common Range Hood Problems and How We Fix Them",
       img: "/range-hood-repair/residential-hood-repair.webp",
       description: (
@@ -48,7 +48,7 @@ export const Tabs = () => {
     },
     {
       id: "content5",
-      title: "Why Choose Us",
+      title: "Full-Service Range Hood Repair",
   heading: "Full-Service Range Hood Repair",
       img: "/range-hood-repair/range-hood-repair.webp",
       description: (
@@ -57,7 +57,7 @@ export const Tabs = () => {
     },
     {
       id: "content6",
-      title: "Why Choose Us",
+      title: "Maintenance for Range Hoods",
   heading: "Maintenance Services for Long-Lasting Range Hoods",
       img: "/range-hood-repair/kitchen-exhaust-repair-near-me.webp",
       description: (
@@ -66,8 +66,8 @@ export const Tabs = () => {
     },
     {
       id: "content7",
-      title: "Why Choose Us",
-  heading: "Deciding Between Microwave Repair and Replacement",
+      title: "Repair and Replacement?",
+  heading: "Deciding Between Range Hood Repair and Replacement",
       img: "/range-hood-repair/range-hood-repair-today.webp",
       description: (
         <><p>If your <strong>range hood</strong> has frequent issues or the repair cost exceeds 50% of the price of a new unit, replacement may be the best option. We'll help you decide based on:</p><p><strong>Age of the Hood:</strong> Older models may lack efficiency and advanced features.</p><p><strong>Repair Frequency:</strong> Frequent breakdowns suggest it's time for an upgrade.</p><p><strong>Energy Efficiency:</strong> Modern range hoods are quieter, more powerful, and energy-efficient.</p></>
@@ -75,7 +75,7 @@ export const Tabs = () => {
     },
     {
       id: "content8",
-      title: "Why Choose Us",
+      title: "Contact Us",
   heading: "Contact Us for Range Hood Repair Services in Los Angeles",
       img: "/range-hood-repair/under-cabinet-range-hood-repair.webp",
       description: (
