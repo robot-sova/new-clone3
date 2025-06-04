@@ -9,11 +9,45 @@ export const Tabs = () => {
   const items = [
     {
       id: "content1",
-      title: "Comprehensive Bar Refrigerator Services",
+      title: "Bar Refrigerator Types We Repair",
+      heading:"Bar Refrigerator Types and Their Repair Needs",
       img: "/bar-refrigerator/bar-refrigerator-repair-1.webp",
       description: (
         <>
-          <p>From <strong>installation</strong> and <strong>maintenance</strong> to urgent <strong>repairs</strong>, we handle all aspects of <strong>bar refrigerator repair</strong>. Our team quickly identifies issues, whether it’s related to <strong>temperature control</strong>, malfunctioning <strong>doors</strong>, or <strong>cooling inconsistencies</strong>. We understand that even a slight disruption in cooling can affect <strong>food</strong> quality and customer satisfaction, which is why we prioritize same-day service.</p><p>Call us today to schedule your <strong>service visit</strong> and keep your <strong>bar refrigerator</strong> running smoothly. Let our technicians ensure your <strong>bar refrigeration equipment</strong> operates reliably, supporting uninterrupted service to your <strong>customers</strong>.</p>
+          <p><h2>Under-Counter Bar Refrigerators</h2>
+<p><strong>Under-counter bar refrigerators</strong> are a popular choice for bars and restaurants due to their <strong>space-saving design</strong> and <strong>easy accessibility</strong>.</p>
+<p>These units fit snugly beneath the counter, allowing bartenders to quickly grab beverages and ingredients without leaving their station.</p>
+<p>Common repair needs for under-counter bar refrigerators include issues with the <strong>thermostat</strong>, which can lead to <strong>improper cooling</strong> and <strong>spoilage of stored items</strong>.</p>
+<p>Problems with the <strong>door seal</strong> are also frequent, resulting in <strong>energy loss</strong> and <strong>inefficient cooling</strong>.</p>
+<p><strong>Regular maintenance</strong>, such as <strong>cleaning the condenser coils</strong> and <strong>checking the refrigerant levels</strong>, can help prevent these issues and ensure the unit operates efficiently.</p>
+
+<h2>Back Bar Coolers</h2>
+<p><strong>Back bar coolers</strong> are designed to <strong>store and display beverages</strong> behind the bar, providing <strong>easy access</strong> for bartenders and an <strong>attractive display</strong> for customers.</p>
+<p>These coolers often feature <strong>glass doors</strong> and <strong>adjustable shelving</strong>, making them ideal for showcasing a variety of drinks.</p>
+<p>Common repair needs for back bar coolers include <strong>malfunctioning compressors</strong>, which can lead to <strong>inadequate cooling</strong> and <strong>potential beverage spoilage</strong>.</p>
+<p>Additionally, issues with the <strong>internal lighting system</strong> can affect the display's appeal.</p>
+<p><strong>Routine maintenance</strong>, such as <strong>cleaning the evaporator fan</strong> and <strong>inspecting the door gaskets</strong>, can help keep back bar coolers running smoothly and looking their best.</p>
+
+<h2>Kegerators</h2>
+<p><strong>Kegerators</strong> are specialized refrigerators designed to <strong>store and dispense kegs of beer</strong>, making them a staple in many bars and restaurants.</p>
+<p>These units typically include a <strong>refrigeration system</strong>, a <strong>tap</strong>, and a <strong>CO2 tank</strong> to keep the beer <strong>carbonated and fresh</strong>.</p>
+<p>Common repair needs for kegerators include issues with the <strong>CO2 system</strong>, such as <strong>leaks</strong> or <strong>regulator malfunctions</strong>, which can affect the quality of the beer.</p>
+<p>Problems with the <strong>cooling system</strong>, such as a <strong>faulty thermostat</strong> or <strong>compressor</strong>, can also impact the beer's temperature and taste.</p>
+<p><strong>Regular maintenance</strong>, including <strong>cleaning the beer lines</strong> and <strong>checking the CO2 levels</strong>, is essential to keep kegerators functioning properly and serving up perfect pints.</p>
+
+<h2>Wine Coolers</h2>
+<p><strong>Wine coolers</strong> are designed to <strong>store wine at optimal temperatures</strong>, preserving its <strong>flavor and aroma</strong>.</p>
+<p>These units often feature <strong>dual temperature zones</strong>, allowing for the storage of both <strong>red and white wines</strong> at their respective ideal temperatures.</p>
+<p>Common repair needs for wine coolers include <strong>thermostat issues</strong>, which can lead to <strong>temperature fluctuations</strong> and potentially spoil the wine.</p>
+<p>Problems with the <strong>cooling system</strong>, such as a <strong>failing compressor</strong> or <strong>evaporator fan</strong>, can also affect the unit's performance.</p>
+<p><strong>Regular maintenance</strong>, including <strong>cleaning the condenser coils</strong> and <strong>ensuring proper ventilation</strong>, can help prevent these issues and keep wine coolers operating efficiently.</p>
+
+<h2>Display Refrigerators</h2>
+<p><strong>Display refrigerators</strong> are used in bars and restaurants to <strong>showcase a variety of beverages</strong> and <strong>attract customers</strong> with their appealing presentation.</p>
+<p>These units often feature <strong>glass doors</strong>, <strong>bright internal lighting</strong>, and <strong>adjustable shelving</strong> to maximize visibility and accessibility.</p>
+<p>Common repair needs for display refrigerators include issues with the <strong>lighting system</strong>, which can diminish the <strong>visual appeal</strong> of the display, and problems with the <strong>cooling system</strong>, such as a <strong>malfunctioning compressor</strong> or <strong>thermostat</strong>.</p>
+<p><strong>Regular maintenance</strong>, such as <strong>cleaning the condenser coils</strong> and <strong>checking the door seals</strong>, is crucial to ensure display refrigerators remain both functional and attractive.</p>
+</p>
 
         </>
       ),
