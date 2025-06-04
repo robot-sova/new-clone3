@@ -9,7 +9,8 @@ export const Tabs = () => {
   const items = [
     {
       id: "content1",
-      title: "Why Choose Same Day Appliance Repair for Range Repair Services?",
+      title: "Why Choose Us",
+      heading: "Why Choose Same Day Appliance Repair for Range Repair Services?",
       img: "/range-repair/range-repair-los-angeles.webp",
       description: (
         <>
@@ -24,8 +25,9 @@ export const Tabs = () => {
       ),
     },
     {
-      id: "types",
-      title: "Types of Ranges We Repair and Our Specialized Approach",
+      id: "content2",
+      title: "Types of Ranges We Repair",
+      heading: "Types of Ranges We Repair and Our Specialized Approach",
       img: "/range-repair/best-range-repair-service.webp",
       description: (
         <>
@@ -38,8 +40,9 @@ export const Tabs = () => {
       ),
     },
     {
-      id: "problems",
+      id: "content2",
       title: "Common Range Problems We Fix",
+      heading: "Common Range Problems We Fix",
       img: "/range-repair/range-repair-near-me.webp",
       description: (
         <>
@@ -55,8 +58,9 @@ export const Tabs = () => {
       ),
     },
     {
-      id: "signs",
-      title: "Signs Your Range Needs Professional Repair – When to Call Us",
+      id: "content3",
+      title: "Signs Your Range Needs Repair",
+      heading: "Signs Your Range Needs Professional Repair – When to Call Us",
       description: (
         <>
           <p>Our expert technicians often see how seemingly small <strong>range repair</strong> issues can quickly become costly problems. Here are the key signs that it's time to schedule a <strong>professional service</strong>:</p>
@@ -73,8 +77,9 @@ export const Tabs = () => {
       ),
     },
     {
-      id: "industries",
-      title: "Full-Service Range Repair for Every Kitchen",
+      id: "content4",
+      title: "Full-Service Range Repair",
+      heading: "Full-Service Range Repair for Every Kitchen",
       img: "/range-repair/range-repair-service.webp",
       description: (
         <>
@@ -91,8 +96,9 @@ export const Tabs = () => {
       ),
     },
     {
-      id: "maintenance",
-      title: "Routine Range Maintenance Services for Long-Lasting Performance and Efficiency",
+      id: "content5",
+      title: "Range Maintenance Services",
+      heading: "Routine Range Maintenance Services for Long-Lasting Performance and Efficiency",
       img: "/range-repair/range-repair-today.webp",
       description: (
         <>
@@ -108,8 +114,9 @@ export const Tabs = () => {
       ),
     },
     {
-      id: "repair-replace",
-      title: "Deciding Between Range Repair and Replacement",
+      id: "content6",
+      title: "Repair or Replacement?",
+      heading: "Deciding Between Range Repair and Replacement",
       description: (
         <>
           <p>If your <strong>range</strong> breaks down frequently, consider repair vs. replacement. When <strong>repairs exceed 50%</strong> of a new range’s value, it may be time to upgrade.</p>
