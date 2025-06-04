@@ -88,7 +88,7 @@ export const MegaMenu = () => {
                   { label: "Fireplace Repair", href: "/fireplace-repair-los-angeles/" },
                   { label: "Freezer Repair", href: "/freezer-repair-los-angeles/" },
                  ],
-                  [ { label: "Refrigerator Repair", href: "/refrigerator-repair-los-angeles/" },
+                  [ { label: "test", href: "/refrigerator-repair-los-angeles/" },
                   { label: "Induction Cooktop Repair", href: "/induction-cooktop-repair-los-angeles/" },
                   { label: "Microwave Repair", href: "/microwave-repair-los-angeles/" },
                   { label: "Oven Repair", href: "/oven-repair-los-angeles/" },

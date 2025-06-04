@@ -1,5 +1,5 @@
 ---
-import MegaMenu from '../components/MegaMenu.jsx';
+import MegaMenu1 from '../components/MegaMenu1.jsx';
 import Reviews from '../components/Reviews.jsx';
 import Footer from '../components/Footer.jsx';
 import Breadcrumbs from '../components/Breadcrumbs.astro';
@@ -53,7 +53,7 @@ const finalStructuredData = structuredData || defaultStructuredData;
 		<script type="application/ld+json" set:html={JSON.stringify(finalStructuredData)} />	
 		</head>
 	<body>
-<MegaMenu client:load />
+<MegaMenu1 client:load />
 <Reviews client:idle />
 		{breadcrumbs.length > 0 && <Breadcrumbs items={breadcrumbs} />}
 		<main style="margin-top: 4rem;">
