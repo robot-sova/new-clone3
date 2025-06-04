@@ -95,7 +95,7 @@ export const MegaMenu = () => {
                   { label: "Range Hood Repair", href: "/range-hood-repair-los-angeles/" },
                   { label: "Range Repair", href: "/range-repair-los-angeles/" },
                  ],
-                  [{ label: "Refrigerator Repair", href: "/refrigerator-repair-los-angeles/" },
+                  [
                   { label: "Stove Repair", href: "/stove-repair-los-angeles/" },
                   { label: "Washing Machine Repair", href: "/washing-machine-repair-los-angeles/" },
                   { label: "Wine Cellar Repair", href: "/wine-cellar-repair-los-angeles/" },           
