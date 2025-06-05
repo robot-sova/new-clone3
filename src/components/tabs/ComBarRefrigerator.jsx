@@ -14,7 +14,7 @@ export const Tabs = () => {
       img: "/bar-refrigerator/bar-refrigerator-repair-1.webp",
       description: (
         <>
-          <p><h2>Bar Refrigerator Types and Their Repair Needs</h2>
+          
             <h3>Under-Counter Bar Refrigerators</h3>
 <p><strong>Under-counter bar refrigerators</strong> are a popular choice for bars and restaurants due to their <strong>space-saving design</strong> and <strong>easy accessibility</strong>.</p>
 <p>These units fit snugly beneath the counter, allowing bartenders to quickly grab beverages and ingredients without leaving their station.</p>
@@ -59,7 +59,7 @@ export const Tabs = () => {
       heading:"Common Bar Refrigerator Issues",
       img: "/bar-refrigerator/bar-refrigerator-repair-2.webp",
       description: (
-        <><h2>Common Bar Refrigerator Issues</h2>
+        <>
               
         <h3>Temperature Fluctuations</h3>
         <p><strong>Temperature fluctuations</strong>: One of the most common issues with bar refrigerators is inconsistent temperature control. This can result in beverages not being chilled to the desired temperature or even freezing.</p>
@@ -112,7 +112,7 @@ export const Tabs = () => {
       heading:"Bar Refrigeration Replacement Parts",
       img: "/bar-refrigerator/bar-refrigerator-repair-3.webp",
       description: (
-        <><h2>Bar Refrigeration Replacement Parts</h2>
+        <>
                
         <h3>Compressor</h3>
         <p><strong>Compressor</strong>: The compressor is the heart of any refrigeration system, responsible for circulating refrigerant and maintaining the desired temperature.</p>
@@ -174,7 +174,7 @@ export const Tabs = () => {
       heading: "Repair or Replace a Bar Refrigerator",
       img: "/bar-refrigerator/bar-refrigerator-repair-4.webp",
       description: (
-        <><h2>How to Decide Whether to Repair or Replace a Bar Refrigerator</h2>
+        <>
 
               
         <p>Deciding whether to <strong>repair or replace a bar refrigerator</strong> can be challenging. Here are some key factors to consider, along with guidelines to help you make an informed decision:</p>
@@ -236,7 +236,7 @@ export const Tabs = () => {
       heading: "Same Day Appliance Repair: Expert Bar Refrigerator Services",
       img: "/bar-refrigerator/bar-refrigerator-repair-5.webp",
       description: (
-        <><h2>Same Day Appliance Repair: Expert Bar Refrigerator Services</h2>
+        <>
 
         <p>Welcome to <strong>Same Day Appliance Repair</strong>! As a <strong>family-owned business</strong>, we are dedicated to enhancing your customer experience with prompt, reliable, and transparent appliance repair services.</p>
         
@@ -254,8 +254,7 @@ export const Tabs = () => {
       heading: "FAQs",
       img: "/bar-refrigerator/bar-repair-process.webp",
       description: (
-        <><h2>FAQs</h2>
-
+        <>
         <h3>Why is my bar refrigerator not cooling?</h3>
         <p>At <strong>Same Day Appliance Repair</strong>, we understand the importance of keeping your bar refrigerator in optimal condition, especially for businesses that rely on <strong>commercial refrigeration</strong>. If your bar refrigerator is not cooling, it can disrupt your operations and impact your bottom line. Here are some common reasons why your commercial refrigerator might not be functioning properly and how we can help:</p>
         
@@ -344,6 +343,7 @@ export const Tabs = () => {
     {
       id: "content7",
       title: "Preventative Maintenance Services",
+      heading:"Preventative Maintenance Services",
       img: "/bar-refrigerator/bar-refrigerator-maintenance.webp",
       description: (
         <>
@@ -359,6 +359,7 @@ export const Tabs = () => {
     {
       id: "content8",
       title: "Why Choose Same Day Appliance Repair?",
+      heading:"Why Choose Same Day Appliance Repair?",
       img: null,
       description: (
         <>
