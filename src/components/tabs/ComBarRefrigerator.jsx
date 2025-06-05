@@ -48,7 +48,7 @@ export const Tabs = () => {
 <p>These units often feature <strong>glass doors</strong>, <strong>bright internal lighting</strong>, and <strong>adjustable shelving</strong> to maximize visibility and accessibility.</p>
 <p>Common repair needs for display refrigerators include issues with the <strong>lighting system</strong>, which can diminish the <strong>visual appeal</strong> of the display, and problems with the <strong>cooling system</strong>, such as a <strong>malfunctioning compressor</strong> or <strong>thermostat</strong>.</p>
 <p><strong>Regular maintenance</strong>, such as <strong>cleaning the condenser coils</strong> and <strong>checking the door seals</strong>, is crucial to ensure display refrigerators remain both functional and attractive.</p>
-</p>
+
 
         </>
       ),
