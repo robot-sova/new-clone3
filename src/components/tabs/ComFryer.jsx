@@ -159,8 +159,8 @@ Many bustling restaurants prefer using <strong>open pot fryers</strong> for thei
     {
       id: "content4",
       title: "Common Fryer Issues We Fix",
-      heading:
-      img: "",
+      heading:"Common Fryer Issues We Fix",
+      img: "/images/commercial-freezer-repair-2.webp",
       description: (
         <>
           <ul>
@@ -177,7 +177,7 @@ Many bustling restaurants prefer using <strong>open pot fryers</strong> for thei
     {
       id: "content5",
       title: "Professional Diagnosis and Modern Tools",
-      heading:
+      heading: "Professional Diagnosis and Modern Tools",
       img: "",
       description: (
         <>
@@ -195,7 +195,7 @@ Many bustling restaurants prefer using <strong>open pot fryers</strong> for thei
     {
       id: "content6",
       title: "OEM Parts and Manufacturer Specifications",
-      heading:
+      heading:"OEM Parts and Manufacturer Specifications",
       img: "",
       description: (
         <>
@@ -206,7 +206,7 @@ Many bustling restaurants prefer using <strong>open pot fryers</strong> for thei
     {
       id: "content7",
       title: "Step-by-Step Repair Process",
-      heading:
+      heading:"Step-by-Step Repair Process",
       img: "",
       description: (
         <>
@@ -224,7 +224,7 @@ Many bustling restaurants prefer using <strong>open pot fryers</strong> for thei
     {
       id: "content8",
       title: "Preventative Maintenance to Avoid Breakdowns",
-      heading:
+      heading:"Preventative Maintenance to Avoid Breakdowns",
       img: "",
       description: (
         <>
@@ -241,7 +241,7 @@ Many bustling restaurants prefer using <strong>open pot fryers</strong> for thei
     {
       id: "content9",
       title: "Why Choose Same Day Appliance Repair?",
-      heading:
+      heading: "Why Choose Same Day Appliance Repair?",
       img: "",
       description: (
         <>
@@ -260,7 +260,7 @@ Many bustling restaurants prefer using <strong>open pot fryers</strong> for thei
     {
       id: "content10",
       title: "FAQs – Commercial Fryer Repair",
-      heading:
+      heading:"FAQs – Commercial Fryer Repair",
       img: "",
       description: (
         <>
